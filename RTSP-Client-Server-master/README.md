@@ -151,7 +151,7 @@ the `run_*` files and modify the address and port variables.
 
 Demo
 ----
-![Demo](/images/RTSP-demo.gif)
+![Demo](https://github.com/rusty619/Senior-Design-Project/blob/master/RTSP-Client-Server-master/images/RTSP-demo.gif)
 
 
 Licensing
