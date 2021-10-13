@@ -11,7 +11,7 @@ Architecture
 ----
 This project uses a client-server architecture. Although RTP is a scalable protocol that could be extended to large scale with many senders and receivers, for simplicity we will be working with a single receiver/sender unicast model. The server is responsible for fetching a video file (whose name is provided by the client’s request) locally and passing it a frame at a time to the client. The client can make requests to the server via the RTSP protocol, which specifies the kinds of actions that the client can request the server to take on the stream, i.e. play, pause, stop, etc. Quality of service information can be fed back to the server from the client that sends packets following the RTCP protocol. Since RTP is an application layer protocol, it can be built on top of TCP/IP or UDP. Because TCP often comes with large overhead (due to its own congestion control mechanisms), we pick the minimal weight UDP protocol and handle congestion control using RTCP packets.
 
-![Client Server Architecture](/images/rtsp1.png)
+![Client Server Architecture](https://github.com/rusty619/Senior-Design-Project/blob/master/RTSP-Client-Server-master/images/rtsp1.png)
 
 
 Design and Implementation
